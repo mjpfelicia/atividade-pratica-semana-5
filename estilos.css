@@ -258,41 +258,41 @@ div.rodape {
 }
 
 /* 1. Configurações CSS para telas de até 1280px de largura*/
-@media screen and ( /* FAZER AQUI*/ ) {
+@media screen and (max-width: 1280px) {
     .areaesquerda {
         /* 2. Posicionamento estático */
-        /* FAZER AQUI*/
+        position: static;
         /* 3. Largura de 80% da largura da área de visualização */
-        /* FAZER AQUI*/
+        width: 80vw;
         /* 4. Altura automática */
-        /* FAZER AQUI*/
+        height: auto;
     }
 
     .areaesquerda .brand {
         /* 5. Contêiner flexbox */
-        /* FAZER AQUI*/
+        display: flex;
         /* 6. Espaço de 1rem entre itens flexbox */
-        /* FAZER AQUI*/
+        gap: 1rem;
         margin-bottom: 1rem;
     }
 
     .areaesquerda .menu {
         /* 7. Contêiner flexbox */
-        /* FAZER AQUI*/
+        display: flex;
         /* 8. Espaço de 3vw entre itens flexbox */
-        /* FAZER AQUI*/
+        gap: 3vw;
     }
 
     .areaesquerda .menu img {
         /* 9. Largura de 2.5% da largura área de visualização */
-        /* FAZER AQUI*/
+        width: 2.5vw;
         /* 10. Margem direita de 0.6% da largura área de visualização */
-        /* FAZER AQUI*/
+        margin-right: 0.6vw;
     }
 
     .areaesquerda .menu a {
         /* 11. Tamanho de fonte de 2.5% da largura área de visualização */
-        /* FAZER AQUI*/
+        font-size: 2.5vw;
     }
 
     .areaesquerda h2 {
