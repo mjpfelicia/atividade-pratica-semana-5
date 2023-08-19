@@ -297,9 +297,9 @@ div.rodape {
 
     .areaesquerda h2 {
         /* 12. Alinhamento vertical superior */
-        /* FAZER AQUI*/
+        top: 0;
         /* 13. Margens zeradas (forçar) */
-        /* FAZER AQUI*/
+        margin: 0 !important;
         font-size: 6vw;
     }
 
@@ -310,32 +310,32 @@ div.rodape {
 
     .cabecalho {
         /* 14. Ocultar elemento */
-        /* FAZER AQUI*/
+        display: none;
     }
 
     #subtituloPrincipal {
         /* 15. Mostrar elemento */
-        /* FAZER AQUI*/
+        display: flex;
     }
 
     .areadireita {
         width: 80vw;
         padding: 0;
         /* 16. Posicionamento estático */
-        /* FAZER AQUI*/
+        position: static;
         /* 17. Margem interna superior de 0.5rem */
-        /* FAZER AQUI*/
+        padding-top:0.5rem ;
     }
 
     .sobre .hero {
         /* 18. Grid de duas colunas iguais */
-        /* FAZER AQUI*/
+        grid-template-columns: 1fr 1fr;
     }
 
     .sobre .hero img {
         width: 100%;
         /* 19. Altura automática (forçar) */
-        /* FAZER AQUI*/
+       height: auto !important;
     }
 
     .sobre .hero .texto h2 {
@@ -344,7 +344,7 @@ div.rodape {
 
     .card {
         /* 20. Largura de 50% do elemento pai, menos 0.75rem (use função calc() ) */
-        /* FAZER AQUI*/
+       width: calc(50% - 0.75rem);
     }
 
     .contato input,
