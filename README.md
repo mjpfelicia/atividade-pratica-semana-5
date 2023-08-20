@@ -3,8 +3,8 @@
 # Atividade Prática da Semana 5
 # https://mjpfelicia.github.io/atividade-pratica-semana-5/
 
-![Design](../img/portifolio.png)
 
+<img src="./img/portifolio.png" alt="Site em Telas" />
 
                  Welcome! 👋
 
